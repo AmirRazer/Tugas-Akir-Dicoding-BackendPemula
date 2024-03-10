@@ -1,0 +1,29 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+         
+        "linebreak-style": ["error", "windows"],
+        "indent": ["error", 4], // Mengatur indentasi menjadi 4 spasi
+        "quotes": ["error", "single"], // Mengharuskan penggunaan tanda kutip ganda
+        "semi": ["error", "always"], // Mengharuskan penggunaan titik koma di akhir setiap pernyataan
+        "comma-dangle": "off",
+        "function-paren-newline": "off",  
+        "implicit-arrow-linebreak": "off" ,
+         "arrow-parens": "off",
+          "no-console": "off",
+           "max-len": ["error", { "code": 150 }],
+           "object-curly-newline": ["error", { "multiline": true, "consistent": true }],
+            "eol-last": "off",
+             "brace-style": "off"
+            
+    
+    }
+
+}
